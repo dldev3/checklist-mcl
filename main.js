@@ -33,9 +33,9 @@ const mobile = () => {
         $('#count-checked-checkboxes-mobile').text(final);
 
         if (final > 5) {
-            $(".count-check-mobile").addClass('text-red-500');
+            $(".float").addClass('bg-red-500');
         } else {
-            $(".count-check-mobile").removeClass('text-red-500');
+            $(".float").removeClass('bg-red-500');
         }
     });
 }
@@ -55,11 +55,25 @@ if (width > 768) {
 }
 
 //refresh screen web resizing
-$(window).resize(function () {
-    location.reload(true)
-});
+// $(window).resize(function () {
+//     location.reload(true)
+// });
 
 
+
+
+
+
+
+// function showFunction() {
+//     if (document.body.scrollTop < 200) {
+//         document.getElementById("float").style.display = "none";
+//     } else {
+//         document.getElementById("float").style.display = "block";
+//     }
+// }
+
+// window.addEventListener("scroll", function () { showFunction() });
 
 
 

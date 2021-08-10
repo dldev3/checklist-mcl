@@ -103,3 +103,27 @@ input[type=checkbox] {
       display: none;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1360px)  {
+    .checklist {
+        margin-top: -38rem;
+    }
+
+    .checklist p {
+        font-size:18px;
+    }
+}
+
+
+
+
+
+/* appear */
+/* .float {
+   animation: fadeEffect 3s; 
+}
+
+@keyframes fadeEffect { 
+   from {opacity: 0;}
+   to {opacity: 1;}
+} */
